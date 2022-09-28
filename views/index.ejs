@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Masukan Room Code</h1>
+    <input id="txtRoomCode" type="text" name="roomCode" />
+    <button id="submitRoomCode">Join Room</button>
+    <hr />
+    <div id="p1">
+      <h1>Player 1</h1>
+      <label>Choose</label>
+      <select id="selectP1Pick" name="pick">
+        <option value="rock">Rock</option>
+        <option value="scissor">Scissor</option>
+        <option value="paper">Paper</option>
+      </select>
+      <button id="btnP1Submit">Submit</button>
+      <hr />
+    </div>
+    <div id="p2">
+      <h1>Player 2</h1>
+      <label>Choose</label>
+      <select id="selectP2Pick" name="pick">
+        <option value="rock">Rock</option>
+        <option value="scissor">Scissor</option>
+        <option value="paper">Paper</option>
+      </select>
+      <button id="btnP2Submit">Submit</button>
+    </div>
+    <h1 id="winner">Winner ? = </h1>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js" type="text/javascript" /></script>
+</html>
